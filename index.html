@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Boost Empire 🚀 | Telegram & Instagram Growth</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: url('logo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    position:relative;
+    overflow:hidden;
+}
+
+/* BLUR + DARK OVERLAY */
+body::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    backdrop-filter: blur(25px);
+    background: rgba(0,0,0,0.75);
+}
+
+/* PARTICLES */
+body::after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    background: radial-gradient(circle, rgba(255,255,255,0.15) 1px, transparent 1px);
+    background-size: 40px 40px;
+    animation: move 20s linear infinite;
+}
+
+@keyframes move{
+    from{transform:translateY(0);}
+    to{transform:translateY(-100px);}
+}
+
+.container{
+    position:relative;
+    z-index:2;
+    text-align:center;
+    width:90%;
+    max-width:400px;
+}
+
+.top-text{
+    font-size:14px;
+    color:#ccc;
+    margin-bottom:10px;
+    text-shadow:0 0 10px #00f0ff;
+}
+
+h1{
+    font-size:32px;
+    margin-bottom:10px;
+    text-shadow:0 0 20px #00f0ff;
+}
+
+#count{
+    font-size:16px;
+    color:#22c55e;
+    margin-bottom:15px;
+}
+
+.label{
+    font-size:13px;
+    color:#bbb;
+    margin:8px 0 3px;
+}
+
+.btn{
+    display:block;
+    margin:12px 0;
+    padding:15px;
+    border-radius:12px;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.main{
+    background:#22c55e;
+    color:black;
+    box-shadow:0 0 15px #22c55e;
+}
+.main:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 25px #22c55e;
+}
+
+.secondary{
+    background:#3b82f6;
+    color:white;
+    box-shadow:0 0 15px #3b82f6;
+}
+.secondary:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 25px #3b82f6;
+}
+
+.support{
+    background:#f59e0b;
+    color:black;
+    box-shadow:0 0 15px #f59e0b;
+}
+.support:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 25px #f59e0b;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<p class="top-text">🔥 India's Fastest Boost Service ⚡ Instant Delivery 💯</p>
+
+<h1>🚀 Grow Your Telegram & Instagram Instantly</h1>
+
+<p id="count">Opening bot in 4...</p>
+
+<p class="label">🛒 Start boosting now</p>
+<a class="btn main" href="https://t.me/BoostEmpire_ProBot">
+🛒OPEN BOOSTER🚀
+</a>
+
+<p class="label">📢 Join for updates</p>
+<a class="btn secondary" href="https://t.me/BR_EMPIRE_91">
+OFFICIAL CHANNEL
+</a>
+
+<p class="label">💬 Need help? Contact support</p>
+<a class="btn support" href="https://wa.me/916207022628">
+SUPPORT
+</a>
+
+</div>
+
+<script>
+let s=4;
+let c=document.getElementById("count");
+
+let t=setInterval(()=>{
+s--;
+c.innerText="Opening bot in "+s+"...";
+if(s<=0){
+clearInterval(t);
+window.location.href="https://t.me/BoostEmpire_ProBot";
+}
+},1000);
+</script>
+
+</body>
+</html>
